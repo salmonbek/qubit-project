@@ -1,0 +1,33 @@
+@media (max-width: 1000px) {
+  .brand-cards {
+    display: grid;
+    gap: 14px !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .hero-section {
+    padding-top: 70px !important;
+  }
+}
+
+@media (max-width: 615px) {
+  .brand-cards {
+    display: grid;
+    gap: 14px !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  #menu {
+    display: block !important;
+  }
+}
+@media (max-width: 480px) {
+  .home-btns {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 490px) {
+  .industry-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}

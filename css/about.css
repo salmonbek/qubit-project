@@ -1,0 +1,62 @@
+.industry-cards-items {
+  padding: 42px 32px 21px 32px;
+  background: #17002e;
+  border-radius: 8px 10px 10px 8px;
+}
+
+.industry-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  gap: 32px;
+}
+.industry-section {
+  padding-bottom: 82px;
+  padding-top: 64px;
+  background: #f5f5f5;
+}
+.industry-cards-items:hover {
+  transform: scale(1);
+  box-shadow: 0px 3px 8px 4px #17002e;
+}
+
+.indusrty-title h1 {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #000000;
+  text-align: center;
+}
+
+.indusrty-title p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin: 12px 0px 42px 0px;
+}
+
+.cards-items-content {
+  display: flex;
+  gap: 21px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.cards-items-content h4 {
+  color: #f5f5f5;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.industry-cards-items p {
+  color: #f5f5f5;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
